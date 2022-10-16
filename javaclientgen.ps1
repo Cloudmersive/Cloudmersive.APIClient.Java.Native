@@ -16,10 +16,7 @@ $artifact_version = "4.2.2"
 & java -jar openapi-generator-cli-6.0.0.jar generate    -i https://api.cloudmersive.com/swagger/api/currency -g java  -c packageconfig.json         -o . --skip-validate-spec
 & java -jar openapi-generator-cli-6.0.0.jar generate    -i https://api.cloudmersive.com/swagger/api/security -g java  -c packageconfig.json         -o . --skip-validate-spec
 
-# Fix Android bug
-
-
-(Get-Content ./src/main/java/com/cloudmersive/client/invoker/ApiClient.java).replace('httpClient = new OkHttpClient();', "httpClient = new OkHttpClient();  httpClient.setProtocols(Arrays.asList(Protocol.HTTP_1_1));") | Set-Content ./src/main/java/com/cloudmersive/client/invoker/ApiClient.java
+(Get-Content ./build.gradle).replace('src/main\java', "src/main/java") | Set-Content ./build.gradle
 
 #& pushd cloudmersive-java-api-client
 & gradle clean
