@@ -1,0 +1,1224 @@
+# TextInputApi
+
+All URIs are relative to *https://api.cloudmersive.com*
+
+| Method | HTTP request | Description |
+|------------- | ------------- | -------------|
+| [**textInputCheckHtmlSsrf**](TextInputApi.md#textInputCheckHtmlSsrf) | **POST** /validate/text-input/html/check/ssrf | Protect html input from Server-side Request Forgery (SSRF) attacks |
+| [**textInputCheckHtmlSsrfWithHttpInfo**](TextInputApi.md#textInputCheckHtmlSsrfWithHttpInfo) | **POST** /validate/text-input/html/check/ssrf | Protect html input from Server-side Request Forgery (SSRF) attacks |
+| [**textInputCheckSqlInjection**](TextInputApi.md#textInputCheckSqlInjection) | **POST** /validate/text-input/check/sql-injection | Check text input for SQL Injection (SQLI) attacks |
+| [**textInputCheckSqlInjectionWithHttpInfo**](TextInputApi.md#textInputCheckSqlInjectionWithHttpInfo) | **POST** /validate/text-input/check/sql-injection | Check text input for SQL Injection (SQLI) attacks |
+| [**textInputCheckSqlInjectionBatch**](TextInputApi.md#textInputCheckSqlInjectionBatch) | **POST** /validate/text-input/check/sql-injection/batch | Check and protect multiple text inputs for SQL Injection (SQLI) attacks in batch |
+| [**textInputCheckSqlInjectionBatchWithHttpInfo**](TextInputApi.md#textInputCheckSqlInjectionBatchWithHttpInfo) | **POST** /validate/text-input/check/sql-injection/batch | Check and protect multiple text inputs for SQL Injection (SQLI) attacks in batch |
+| [**textInputCheckXss**](TextInputApi.md#textInputCheckXss) | **POST** /validate/text-input/check/xss | Check text input for Cross-Site-Scripting (XSS) attacks |
+| [**textInputCheckXssWithHttpInfo**](TextInputApi.md#textInputCheckXssWithHttpInfo) | **POST** /validate/text-input/check/xss | Check text input for Cross-Site-Scripting (XSS) attacks |
+| [**textInputCheckXssBatch**](TextInputApi.md#textInputCheckXssBatch) | **POST** /validate/text-input/check-and-protect/xss/batch | Check and protect multiple text inputs for Cross-Site-Scripting (XSS) attacks in batch |
+| [**textInputCheckXssBatchWithHttpInfo**](TextInputApi.md#textInputCheckXssBatchWithHttpInfo) | **POST** /validate/text-input/check-and-protect/xss/batch | Check and protect multiple text inputs for Cross-Site-Scripting (XSS) attacks in batch |
+| [**textInputCheckXxe**](TextInputApi.md#textInputCheckXxe) | **POST** /validate/text-input/check/xxe | Protect text input from XML External Entity (XXE) attacks |
+| [**textInputCheckXxeWithHttpInfo**](TextInputApi.md#textInputCheckXxeWithHttpInfo) | **POST** /validate/text-input/check/xxe | Protect text input from XML External Entity (XXE) attacks |
+| [**textInputCheckXxeBatch**](TextInputApi.md#textInputCheckXxeBatch) | **POST** /validate/text-input/check/xxe/batch | Protect text input from XML External Entity (XXE) attacks |
+| [**textInputCheckXxeBatchWithHttpInfo**](TextInputApi.md#textInputCheckXxeBatchWithHttpInfo) | **POST** /validate/text-input/check/xxe/batch | Protect text input from XML External Entity (XXE) attacks |
+| [**textInputProtectXss**](TextInputApi.md#textInputProtectXss) | **POST** /validate/text-input/protect/xss | Protect text input from Cross-Site-Scripting (XSS) attacks through normalization |
+| [**textInputProtectXssWithHttpInfo**](TextInputApi.md#textInputProtectXssWithHttpInfo) | **POST** /validate/text-input/protect/xss | Protect text input from Cross-Site-Scripting (XSS) attacks through normalization |
+
+
+
+## textInputCheckHtmlSsrf
+
+> HtmlSsrfDetectionResult textInputCheckHtmlSsrf(value)
+
+Protect html input from Server-side Request Forgery (SSRF) attacks
+
+Detects SSRF (Server-side request forgery) attacks and unsafe URL attacks from HTML text input, where attackers can attempt to access unsafe local or network paths in the server environment by injecting them into HTML.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        String value = "value_example"; // String | User-facing HTML input.
+        try {
+            HtmlSsrfDetectionResult result = apiInstance.textInputCheckHtmlSsrf(value);
+            System.out.println(result);
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputCheckHtmlSsrf");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Reason: " + e.getResponseBody());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **value** | **String**| User-facing HTML input. | |
+
+### Return type
+
+[**HtmlSsrfDetectionResult**](HtmlSsrfDetectionResult.md)
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+## textInputCheckHtmlSsrfWithHttpInfo
+
+> ApiResponse<HtmlSsrfDetectionResult> textInputCheckHtmlSsrf textInputCheckHtmlSsrfWithHttpInfo(value)
+
+Protect html input from Server-side Request Forgery (SSRF) attacks
+
+Detects SSRF (Server-side request forgery) attacks and unsafe URL attacks from HTML text input, where attackers can attempt to access unsafe local or network paths in the server environment by injecting them into HTML.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.ApiResponse;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        String value = "value_example"; // String | User-facing HTML input.
+        try {
+            ApiResponse<HtmlSsrfDetectionResult> response = apiInstance.textInputCheckHtmlSsrfWithHttpInfo(value);
+            System.out.println("Status code: " + response.getStatusCode());
+            System.out.println("Response headers: " + response.getHeaders());
+            System.out.println("Response body: " + response.getData());
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputCheckHtmlSsrf");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            System.err.println("Reason: " + e.getResponseBody());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **value** | **String**| User-facing HTML input. | |
+
+### Return type
+
+ApiResponse<[**HtmlSsrfDetectionResult**](HtmlSsrfDetectionResult.md)>
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+
+## textInputCheckSqlInjection
+
+> SqlInjectionDetectionResult textInputCheckSqlInjection(value, detectionLevel)
+
+Check text input for SQL Injection (SQLI) attacks
+
+Detects SQL Injection (SQLI) attacks from text input.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        String value = "value_example"; // String | User-facing text input.
+        String detectionLevel = "detectionLevel_example"; // String | Set to Normal to target a high-security SQL Injection detection level with a very low false positive rate; select High to target a very-high security SQL Injection detection level with higher false positives.  Default is Normal (recommended).
+        try {
+            SqlInjectionDetectionResult result = apiInstance.textInputCheckSqlInjection(value, detectionLevel);
+            System.out.println(result);
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputCheckSqlInjection");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Reason: " + e.getResponseBody());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **value** | **String**| User-facing text input. | |
+| **detectionLevel** | **String**| Set to Normal to target a high-security SQL Injection detection level with a very low false positive rate; select High to target a very-high security SQL Injection detection level with higher false positives.  Default is Normal (recommended). | [optional] |
+
+### Return type
+
+[**SqlInjectionDetectionResult**](SqlInjectionDetectionResult.md)
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+## textInputCheckSqlInjectionWithHttpInfo
+
+> ApiResponse<SqlInjectionDetectionResult> textInputCheckSqlInjection textInputCheckSqlInjectionWithHttpInfo(value, detectionLevel)
+
+Check text input for SQL Injection (SQLI) attacks
+
+Detects SQL Injection (SQLI) attacks from text input.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.ApiResponse;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        String value = "value_example"; // String | User-facing text input.
+        String detectionLevel = "detectionLevel_example"; // String | Set to Normal to target a high-security SQL Injection detection level with a very low false positive rate; select High to target a very-high security SQL Injection detection level with higher false positives.  Default is Normal (recommended).
+        try {
+            ApiResponse<SqlInjectionDetectionResult> response = apiInstance.textInputCheckSqlInjectionWithHttpInfo(value, detectionLevel);
+            System.out.println("Status code: " + response.getStatusCode());
+            System.out.println("Response headers: " + response.getHeaders());
+            System.out.println("Response body: " + response.getData());
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputCheckSqlInjection");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            System.err.println("Reason: " + e.getResponseBody());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **value** | **String**| User-facing text input. | |
+| **detectionLevel** | **String**| Set to Normal to target a high-security SQL Injection detection level with a very low false positive rate; select High to target a very-high security SQL Injection detection level with higher false positives.  Default is Normal (recommended). | [optional] |
+
+### Return type
+
+ApiResponse<[**SqlInjectionDetectionResult**](SqlInjectionDetectionResult.md)>
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+
+## textInputCheckSqlInjectionBatch
+
+> SqlInjectionCheckBatchResponse textInputCheckSqlInjectionBatch(value)
+
+Check and protect multiple text inputs for SQL Injection (SQLI) attacks in batch
+
+Detects SQL Injection (SQLI) attacks from multiple text inputs.  Output preverses order of input items.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        SqlInjectionCheckBatchRequest value = new SqlInjectionCheckBatchRequest(); // SqlInjectionCheckBatchRequest | User-facing text input.
+        try {
+            SqlInjectionCheckBatchResponse result = apiInstance.textInputCheckSqlInjectionBatch(value);
+            System.out.println(result);
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputCheckSqlInjectionBatch");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Reason: " + e.getResponseBody());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **value** | [**SqlInjectionCheckBatchRequest**](SqlInjectionCheckBatchRequest.md)| User-facing text input. | |
+
+### Return type
+
+[**SqlInjectionCheckBatchResponse**](SqlInjectionCheckBatchResponse.md)
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+## textInputCheckSqlInjectionBatchWithHttpInfo
+
+> ApiResponse<SqlInjectionCheckBatchResponse> textInputCheckSqlInjectionBatch textInputCheckSqlInjectionBatchWithHttpInfo(value)
+
+Check and protect multiple text inputs for SQL Injection (SQLI) attacks in batch
+
+Detects SQL Injection (SQLI) attacks from multiple text inputs.  Output preverses order of input items.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.ApiResponse;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        SqlInjectionCheckBatchRequest value = new SqlInjectionCheckBatchRequest(); // SqlInjectionCheckBatchRequest | User-facing text input.
+        try {
+            ApiResponse<SqlInjectionCheckBatchResponse> response = apiInstance.textInputCheckSqlInjectionBatchWithHttpInfo(value);
+            System.out.println("Status code: " + response.getStatusCode());
+            System.out.println("Response headers: " + response.getHeaders());
+            System.out.println("Response body: " + response.getData());
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputCheckSqlInjectionBatch");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            System.err.println("Reason: " + e.getResponseBody());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **value** | [**SqlInjectionCheckBatchRequest**](SqlInjectionCheckBatchRequest.md)| User-facing text input. | |
+
+### Return type
+
+ApiResponse<[**SqlInjectionCheckBatchResponse**](SqlInjectionCheckBatchResponse.md)>
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+
+## textInputCheckXss
+
+> XssProtectionResult textInputCheckXss(value)
+
+Check text input for Cross-Site-Scripting (XSS) attacks
+
+Detects XSS (Cross-Site-Scripting) attacks from text input.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        String value = "value_example"; // String | User-facing text input.
+        try {
+            XssProtectionResult result = apiInstance.textInputCheckXss(value);
+            System.out.println(result);
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputCheckXss");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Reason: " + e.getResponseBody());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **value** | **String**| User-facing text input. | |
+
+### Return type
+
+[**XssProtectionResult**](XssProtectionResult.md)
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+## textInputCheckXssWithHttpInfo
+
+> ApiResponse<XssProtectionResult> textInputCheckXss textInputCheckXssWithHttpInfo(value)
+
+Check text input for Cross-Site-Scripting (XSS) attacks
+
+Detects XSS (Cross-Site-Scripting) attacks from text input.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.ApiResponse;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        String value = "value_example"; // String | User-facing text input.
+        try {
+            ApiResponse<XssProtectionResult> response = apiInstance.textInputCheckXssWithHttpInfo(value);
+            System.out.println("Status code: " + response.getStatusCode());
+            System.out.println("Response headers: " + response.getHeaders());
+            System.out.println("Response body: " + response.getData());
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputCheckXss");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            System.err.println("Reason: " + e.getResponseBody());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **value** | **String**| User-facing text input. | |
+
+### Return type
+
+ApiResponse<[**XssProtectionResult**](XssProtectionResult.md)>
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+
+## textInputCheckXssBatch
+
+> XssProtectionBatchResponse textInputCheckXssBatch(value)
+
+Check and protect multiple text inputs for Cross-Site-Scripting (XSS) attacks in batch
+
+Detects XSS (Cross-Site-Scripting) attacks from multiple text inputs.  Output preverses order of input items.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        XssProtectionBatchRequest value = new XssProtectionBatchRequest(); // XssProtectionBatchRequest | User-facing text input.
+        try {
+            XssProtectionBatchResponse result = apiInstance.textInputCheckXssBatch(value);
+            System.out.println(result);
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputCheckXssBatch");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Reason: " + e.getResponseBody());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **value** | [**XssProtectionBatchRequest**](XssProtectionBatchRequest.md)| User-facing text input. | |
+
+### Return type
+
+[**XssProtectionBatchResponse**](XssProtectionBatchResponse.md)
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+## textInputCheckXssBatchWithHttpInfo
+
+> ApiResponse<XssProtectionBatchResponse> textInputCheckXssBatch textInputCheckXssBatchWithHttpInfo(value)
+
+Check and protect multiple text inputs for Cross-Site-Scripting (XSS) attacks in batch
+
+Detects XSS (Cross-Site-Scripting) attacks from multiple text inputs.  Output preverses order of input items.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.ApiResponse;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        XssProtectionBatchRequest value = new XssProtectionBatchRequest(); // XssProtectionBatchRequest | User-facing text input.
+        try {
+            ApiResponse<XssProtectionBatchResponse> response = apiInstance.textInputCheckXssBatchWithHttpInfo(value);
+            System.out.println("Status code: " + response.getStatusCode());
+            System.out.println("Response headers: " + response.getHeaders());
+            System.out.println("Response body: " + response.getData());
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputCheckXssBatch");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            System.err.println("Reason: " + e.getResponseBody());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **value** | [**XssProtectionBatchRequest**](XssProtectionBatchRequest.md)| User-facing text input. | |
+
+### Return type
+
+ApiResponse<[**XssProtectionBatchResponse**](XssProtectionBatchResponse.md)>
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+
+## textInputCheckXxe
+
+> XxeDetectionResult textInputCheckXxe(value, allowInternetUrls, knownSafeUrls, knownUnsafeUrls)
+
+Protect text input from XML External Entity (XXE) attacks
+
+Detects XXE (XML External Entity) attacks from text input.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        String value = "value_example"; // String | User-facing text input.
+        Boolean allowInternetUrls = true; // Boolean | Optional: Set to true to allow Internet-based dependency URLs for DTDs and other XML External Entitites, set to false to block.  Default is false.
+        String knownSafeUrls = "knownSafeUrls_example"; // String | Optional: Comma separated list of fully-qualified URLs that will automatically be considered safe.
+        String knownUnsafeUrls = "knownUnsafeUrls_example"; // String | Optional: Comma separated list of fully-qualified URLs that will automatically be considered unsafe.
+        try {
+            XxeDetectionResult result = apiInstance.textInputCheckXxe(value, allowInternetUrls, knownSafeUrls, knownUnsafeUrls);
+            System.out.println(result);
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputCheckXxe");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Reason: " + e.getResponseBody());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **value** | **String**| User-facing text input. | |
+| **allowInternetUrls** | **Boolean**| Optional: Set to true to allow Internet-based dependency URLs for DTDs and other XML External Entitites, set to false to block.  Default is false. | [optional] |
+| **knownSafeUrls** | **String**| Optional: Comma separated list of fully-qualified URLs that will automatically be considered safe. | [optional] |
+| **knownUnsafeUrls** | **String**| Optional: Comma separated list of fully-qualified URLs that will automatically be considered unsafe. | [optional] |
+
+### Return type
+
+[**XxeDetectionResult**](XxeDetectionResult.md)
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+## textInputCheckXxeWithHttpInfo
+
+> ApiResponse<XxeDetectionResult> textInputCheckXxe textInputCheckXxeWithHttpInfo(value, allowInternetUrls, knownSafeUrls, knownUnsafeUrls)
+
+Protect text input from XML External Entity (XXE) attacks
+
+Detects XXE (XML External Entity) attacks from text input.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.ApiResponse;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        String value = "value_example"; // String | User-facing text input.
+        Boolean allowInternetUrls = true; // Boolean | Optional: Set to true to allow Internet-based dependency URLs for DTDs and other XML External Entitites, set to false to block.  Default is false.
+        String knownSafeUrls = "knownSafeUrls_example"; // String | Optional: Comma separated list of fully-qualified URLs that will automatically be considered safe.
+        String knownUnsafeUrls = "knownUnsafeUrls_example"; // String | Optional: Comma separated list of fully-qualified URLs that will automatically be considered unsafe.
+        try {
+            ApiResponse<XxeDetectionResult> response = apiInstance.textInputCheckXxeWithHttpInfo(value, allowInternetUrls, knownSafeUrls, knownUnsafeUrls);
+            System.out.println("Status code: " + response.getStatusCode());
+            System.out.println("Response headers: " + response.getHeaders());
+            System.out.println("Response body: " + response.getData());
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputCheckXxe");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            System.err.println("Reason: " + e.getResponseBody());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **value** | **String**| User-facing text input. | |
+| **allowInternetUrls** | **Boolean**| Optional: Set to true to allow Internet-based dependency URLs for DTDs and other XML External Entitites, set to false to block.  Default is false. | [optional] |
+| **knownSafeUrls** | **String**| Optional: Comma separated list of fully-qualified URLs that will automatically be considered safe. | [optional] |
+| **knownUnsafeUrls** | **String**| Optional: Comma separated list of fully-qualified URLs that will automatically be considered unsafe. | [optional] |
+
+### Return type
+
+ApiResponse<[**XxeDetectionResult**](XxeDetectionResult.md)>
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+
+## textInputCheckXxeBatch
+
+> XxeDetectionBatchResponse textInputCheckXxeBatch(request)
+
+Protect text input from XML External Entity (XXE) attacks
+
+Detects XXE (XML External Entity) attacks from text input.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        XxeDetectionBatchRequest request = new XxeDetectionBatchRequest(); // XxeDetectionBatchRequest | 
+        try {
+            XxeDetectionBatchResponse result = apiInstance.textInputCheckXxeBatch(request);
+            System.out.println(result);
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputCheckXxeBatch");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Reason: " + e.getResponseBody());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **request** | [**XxeDetectionBatchRequest**](XxeDetectionBatchRequest.md)|  | |
+
+### Return type
+
+[**XxeDetectionBatchResponse**](XxeDetectionBatchResponse.md)
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+## textInputCheckXxeBatchWithHttpInfo
+
+> ApiResponse<XxeDetectionBatchResponse> textInputCheckXxeBatch textInputCheckXxeBatchWithHttpInfo(request)
+
+Protect text input from XML External Entity (XXE) attacks
+
+Detects XXE (XML External Entity) attacks from text input.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.ApiResponse;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        XxeDetectionBatchRequest request = new XxeDetectionBatchRequest(); // XxeDetectionBatchRequest | 
+        try {
+            ApiResponse<XxeDetectionBatchResponse> response = apiInstance.textInputCheckXxeBatchWithHttpInfo(request);
+            System.out.println("Status code: " + response.getStatusCode());
+            System.out.println("Response headers: " + response.getHeaders());
+            System.out.println("Response body: " + response.getData());
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputCheckXxeBatch");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            System.err.println("Reason: " + e.getResponseBody());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **request** | [**XxeDetectionBatchRequest**](XxeDetectionBatchRequest.md)|  | |
+
+### Return type
+
+ApiResponse<[**XxeDetectionBatchResponse**](XxeDetectionBatchResponse.md)>
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+
+## textInputProtectXss
+
+> XssProtectionResult textInputProtectXss(value)
+
+Protect text input from Cross-Site-Scripting (XSS) attacks through normalization
+
+Detects and removes XSS (Cross-Site-Scripting) attacks from text input through normalization.  Returns the normalized result, as well as information on whether the original input contained an XSS risk.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        String value = "value_example"; // String | User-facing text input.
+        try {
+            XssProtectionResult result = apiInstance.textInputProtectXss(value);
+            System.out.println(result);
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputProtectXss");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Reason: " + e.getResponseBody());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **value** | **String**| User-facing text input. | |
+
+### Return type
+
+[**XssProtectionResult**](XssProtectionResult.md)
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
+## textInputProtectXssWithHttpInfo
+
+> ApiResponse<XssProtectionResult> textInputProtectXss textInputProtectXssWithHttpInfo(value)
+
+Protect text input from Cross-Site-Scripting (XSS) attacks through normalization
+
+Detects and removes XSS (Cross-Site-Scripting) attacks from text input through normalization.  Returns the normalized result, as well as information on whether the original input contained an XSS risk.
+
+### Example
+
+```java
+// Import classes:
+import com.cloudmersive.client.native.invoker.ApiClient;
+import com.cloudmersive.client.native.invoker.ApiException;
+import com.cloudmersive.client.native.invoker.ApiResponse;
+import com.cloudmersive.client.native.invoker.Configuration;
+import com.cloudmersive.client.native.invoker.auth.*;
+import com.cloudmersive.client.native.invoker.models.*;
+import com.cloudmersive.client.native.TextInputApi;
+
+public class Example {
+    public static void main(String[] args) {
+        ApiClient defaultClient = Configuration.getDefaultApiClient();
+        defaultClient.setBasePath("https://api.cloudmersive.com");
+        
+        // Configure API key authorization: Apikey
+        ApiKeyAuth Apikey = (ApiKeyAuth) defaultClient.getAuthentication("Apikey");
+        Apikey.setApiKey("YOUR API KEY");
+        // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
+        //Apikey.setApiKeyPrefix("Token");
+
+        TextInputApi apiInstance = new TextInputApi(defaultClient);
+        String value = "value_example"; // String | User-facing text input.
+        try {
+            ApiResponse<XssProtectionResult> response = apiInstance.textInputProtectXssWithHttpInfo(value);
+            System.out.println("Status code: " + response.getStatusCode());
+            System.out.println("Response headers: " + response.getHeaders());
+            System.out.println("Response body: " + response.getData());
+        } catch (ApiException e) {
+            System.err.println("Exception when calling TextInputApi#textInputProtectXss");
+            System.err.println("Status code: " + e.getCode());
+            System.err.println("Response headers: " + e.getResponseHeaders());
+            System.err.println("Reason: " + e.getResponseBody());
+            e.printStackTrace();
+        }
+    }
+}
+```
+
+### Parameters
+
+
+| Name | Type | Description  | Notes |
+|------------- | ------------- | ------------- | -------------|
+| **value** | **String**| User-facing text input. | |
+
+### Return type
+
+ApiResponse<[**XssProtectionResult**](XssProtectionResult.md)>
+
+
+### Authorization
+
+[Apikey](../README.md#Apikey)
+
+### HTTP request headers
+
+- **Content-Type**: application/json, text/json
+- **Accept**: application/json, text/json, application/xml, text/xml
+
+### HTTP response details
+| Status code | Description | Response headers |
+|-------------|-------------|------------------|
+| **200** | OK |  -  |
+
