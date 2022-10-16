@@ -45,12 +45,12 @@ Appends an HTML tag to the HEAD section of an HTML document.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -121,13 +121,13 @@ Appends an HTML tag to the HEAD section of an HTML document.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -201,12 +201,12 @@ Appends a heading to the end of an HTML document.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -281,13 +281,13 @@ Appends a heading to the end of an HTML document.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -365,12 +365,12 @@ Appends an image to the end of an HTML document using a URL.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -443,13 +443,13 @@ Appends an image to the end of an HTML document using a URL.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -525,12 +525,12 @@ Appends a base64 inline image to the end of an HTML document from an input file 
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -607,13 +607,13 @@ Appends a base64 inline image to the end of an HTML document from an input file 
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -693,12 +693,12 @@ Appends a paragraph to the end of an HTML document.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -771,13 +771,13 @@ Appends a paragraph to the end of an HTML document.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -853,12 +853,12 @@ Returns a blank HTML Document format file.  The file is blank, with no contents 
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -933,13 +933,13 @@ Returns a blank HTML Document format file.  The file is blank, with no contents 
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1017,12 +1017,12 @@ Retrieves the language code (e.g. \&quot;en\&quot; or \&quot;de\&quot;) of an HT
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1091,13 +1091,13 @@ Retrieves the language code (e.g. \&quot;en\&quot; or \&quot;de\&quot;) of an HT
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1169,12 +1169,12 @@ Extracts the resolved link URLs, fully-qualified if possible, from an input HTML
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1245,13 +1245,13 @@ Extracts the resolved link URLs, fully-qualified if possible, from an input HTML
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1325,12 +1325,12 @@ Gets the rel canonical URL of an HTML document.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1399,13 +1399,13 @@ Gets the rel canonical URL of an HTML document.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1477,12 +1477,12 @@ Gets the sitemap link URL of an HTML document.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1551,13 +1551,13 @@ Gets the sitemap link URL of an HTML document.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1629,12 +1629,12 @@ Sets the language code of an HTML document.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1705,13 +1705,13 @@ Sets the language code of an HTML document.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1785,12 +1785,12 @@ Sets the rel canonical URL of an HTML document.  This is useful for telling sear
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1861,13 +1861,13 @@ Sets the rel canonical URL of an HTML document.  This is useful for telling sear
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1941,12 +1941,12 @@ Sets the sitemap URL of an HTML document.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -2017,13 +2017,13 @@ Sets the sitemap URL of an HTML document.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EditHtmlApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EditHtmlApi;
 
 public class Example {
     public static void main(String[] args) {

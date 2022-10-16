@@ -31,12 +31,12 @@ Automatically translates input text in German to output text in English using ad
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.LanguageTranslationApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.LanguageTranslationApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -103,13 +103,13 @@ Automatically translates input text in German to output text in English using ad
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.LanguageTranslationApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.LanguageTranslationApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -179,12 +179,12 @@ Automatically translates input text in English to output text in German using ad
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.LanguageTranslationApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.LanguageTranslationApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -251,13 +251,13 @@ Automatically translates input text in English to output text in German using ad
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.LanguageTranslationApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.LanguageTranslationApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -327,12 +327,12 @@ Automatically translates input text in English to output text in French using ad
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.LanguageTranslationApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.LanguageTranslationApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -399,13 +399,13 @@ Automatically translates input text in English to output text in French using ad
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.LanguageTranslationApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.LanguageTranslationApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -475,12 +475,12 @@ Automatically translates input text in English to output text in Russian using a
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.LanguageTranslationApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.LanguageTranslationApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -547,13 +547,13 @@ Automatically translates input text in English to output text in Russian using a
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.LanguageTranslationApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.LanguageTranslationApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -623,12 +623,12 @@ Automatically translates input text in French to output text in English using ad
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.LanguageTranslationApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.LanguageTranslationApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -695,13 +695,13 @@ Automatically translates input text in French to output text in English using ad
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.LanguageTranslationApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.LanguageTranslationApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -771,12 +771,12 @@ Automatically translates input text in Russian to output text in English using a
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.LanguageTranslationApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.LanguageTranslationApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -843,13 +843,13 @@ Automatically translates input text in Russian to output text in English using a
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.LanguageTranslationApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.LanguageTranslationApi;
 
 public class Example {
     public static void main(String[] args) {

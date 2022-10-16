@@ -23,12 +23,12 @@ Resize an image to a maximum width and maximum height, while preserving the imag
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ResizeApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ResizeApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -99,13 +99,13 @@ Resize an image to a maximum width and maximum height, while preserving the imag
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ResizeApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ResizeApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -179,12 +179,12 @@ Resize an image to a specific width and specific height.  Resize is EXIF-aware.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ResizeApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ResizeApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -255,13 +255,13 @@ Resize an image to a specific width and specific height.  Resize is EXIF-aware.
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ResizeApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ResizeApi;
 
 public class Example {
     public static void main(String[] args) {

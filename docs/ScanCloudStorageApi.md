@@ -35,12 +35,12 @@ Scan the contents of a single AWS S3 file and its content for viruses. Leverage 
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -115,13 +115,13 @@ Scan the contents of a single AWS S3 file and its content for viruses. Leverage 
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -199,12 +199,12 @@ Advanced Scan the contents of a single AWS S3 file and its content for viruses a
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -297,13 +297,13 @@ Advanced Scan the contents of a single AWS S3 file and its content for viruses a
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -399,12 +399,12 @@ Scan the contents of a single Azure Blob and its content for viruses. Leverage c
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -475,13 +475,13 @@ Scan the contents of a single Azure Blob and its content for viruses. Leverage c
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -555,12 +555,12 @@ Advanced Scan the contents of a single Azure Blob and its content for viruses an
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -649,13 +649,13 @@ Advanced Scan the contents of a single Azure Blob and its content for viruses an
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -747,12 +747,12 @@ Scan the contents of a single Google Cloud Platform (GCP) Storage file and its c
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -823,13 +823,13 @@ Scan the contents of a single Google Cloud Platform (GCP) Storage file and its c
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -903,12 +903,12 @@ Advanced Scan the contents of a single Google Cloud Platform (GCP) Storage file 
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -997,13 +997,13 @@ Advanced Scan the contents of a single Google Cloud Platform (GCP) Storage file 
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1095,12 +1095,12 @@ Virus Scan the contents of a single SharePoint Online Site Drive file and its co
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1179,13 +1179,13 @@ Virus Scan the contents of a single SharePoint Online Site Drive file and its co
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1267,12 +1267,12 @@ Advanced Virus Scan the contents of a single SharePoint Online Site Drive file a
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -1369,13 +1369,13 @@ Advanced Virus Scan the contents of a single SharePoint Online Site Drive file a
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.ScanCloudStorageApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.ScanCloudStorageApi;
 
 public class Example {
     public static void main(String[] args) {

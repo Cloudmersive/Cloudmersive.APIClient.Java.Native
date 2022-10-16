@@ -25,12 +25,12 @@ Validate an email address by identifying whether its parent domain has email ser
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EmailApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EmailApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -97,13 +97,13 @@ Validate an email address by identifying whether its parent domain has email ser
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EmailApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EmailApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -173,12 +173,12 @@ Performs a full validation of the email address.  Checks for syntactic correctne
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EmailApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EmailApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -245,13 +245,13 @@ Performs a full validation of the email address.  Checks for syntactic correctne
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EmailApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EmailApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -321,12 +321,12 @@ Validate whether a given email address is syntactically correct via a limited lo
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EmailApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EmailApi;
 
 public class Example {
     public static void main(String[] args) {
@@ -393,13 +393,13 @@ Validate whether a given email address is syntactically correct via a limited lo
 
 ```java
 // Import classes:
-import com.cloudmersive.client.native.invoker.ApiClient;
-import com.cloudmersive.client.native.invoker.ApiException;
-import com.cloudmersive.client.native.invoker.ApiResponse;
-import com.cloudmersive.client.native.invoker.Configuration;
-import com.cloudmersive.client.native.invoker.auth.*;
-import com.cloudmersive.client.native.invoker.models.*;
-import com.cloudmersive.client.native.EmailApi;
+import com.cloudmersive.client.ntv.invoker.ApiClient;
+import com.cloudmersive.client.ntv.invoker.ApiException;
+import com.cloudmersive.client.ntv.invoker.ApiResponse;
+import com.cloudmersive.client.ntv.invoker.Configuration;
+import com.cloudmersive.client.ntv.invoker.auth.*;
+import com.cloudmersive.client.ntv.invoker.models.*;
+import com.cloudmersive.client.ntv.EmailApi;
 
 public class Example {
     public static void main(String[] args) {

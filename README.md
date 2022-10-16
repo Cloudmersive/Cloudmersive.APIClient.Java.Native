@@ -1,10 +1,10 @@
-# cloudmersive-java-api-client-native
+# cloudmersive-java-api-client-ntv
 
 securityapi
 
 - API version: v1
 
-- Build date: 2022-10-15T17:34:21.930465900-07:00[America/Los_Angeles]
+- Build date: 2022-10-15T17:57:00.969536800-07:00[America/Los_Angeles]
 
 The security APIs help you detect and block security threats.
 
@@ -40,8 +40,8 @@ Add this dependency to your project's POM:
 
 ```xml
 <dependency>
-  <groupId>com.cloudmersive.native</groupId>
-  <artifactId>cloudmersive-java-api-client-native</artifactId>
+  <groupId>com.cloudmersive.ntv</groupId>
+  <artifactId>cloudmersive-java-api-client-ntv</artifactId>
   <version>4.1.1</version>
   <scope>compile</scope>
 </dependency>
@@ -52,7 +52,7 @@ Add this dependency to your project's POM:
 Add this dependency to your project's build file:
 
 ```groovy
-compile "com.cloudmersive.native:cloudmersive-java-api-client-native:4.1.1"
+compile "com.cloudmersive.ntv:cloudmersive-java-api-client-ntv:4.1.1"
 ```
 
 ### Others
@@ -65,7 +65,7 @@ mvn clean package
 
 Then manually install the following JARs:
 
-- `target/cloudmersive-java-api-client-native-4.1.1.jar`
+- `target/cloudmersive-java-api-client-ntv-4.1.1.jar`
 - `target/lib/*.jar`
 
 ## Getting Started
@@ -74,9 +74,9 @@ Please follow the [installation](#installation) instruction and execute the foll
 
 ```java
 
-import com.cloudmersive.client.native.invoker.*;
-import com.cloudmersive.client.native.model.*;
-import com.cloudmersive.client.native.ContentThreatDetectionApi;
+import com.cloudmersive.client.ntv.invoker.*;
+import com.cloudmersive.client.ntv.model.*;
+import com.cloudmersive.client.ntv.ContentThreatDetectionApi;
 
 public class ContentThreatDetectionApiExample {
 

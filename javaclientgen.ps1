@@ -17,6 +17,8 @@ $artifact_version = "4.2.2"
 & java -jar openapi-generator-cli-6.0.0.jar generate    -i https://api.cloudmersive.com/swagger/api/security -g java  -c packageconfig.json         -o . --skip-validate-spec
 
 (Get-Content ./build.gradle).replace('src/main\java', "src/main/java") | Set-Content ./build.gradle
+(Get-Content ./build.gradle).replace('sourceCompatibility = JavaVersion.VERSION_11', "") | Set-Content ./build.gradle
+(Get-Content ./build.gradle).replace('targetCompatibility = JavaVersion.VERSION_11', "") | Set-Content ./build.gradle
 
 #& pushd cloudmersive-java-api-client
 & gradle clean

@@ -1,7 +1,7 @@
 apply plugin: 'idea'
 apply plugin: 'eclipse'
 
-group = 'com.cloudmersive.native'
+group = 'com.cloudmersive.ntv'
 version = '4.1.1'
 
 buildscript {
@@ -17,8 +17,8 @@ repositories {
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 
-sourceCompatibility = JavaVersion.VERSION_11
-targetCompatibility = JavaVersion.VERSION_11
+
+
 
 // Some text from the schema is copy pasted into the source files as UTF-8
 // but the default still seems to be to use platform encoding
@@ -34,10 +34,15 @@ javadoc {
 publishing {
     publications {
         maven(MavenPublication) {
-            artifactId = 'cloudmersive-java-api-client-native'
+            artifactId = 'cloudmersive-java-api-client-ntv'
             from components.java
         }
     }
+}
+java {
+  toolchain {
+    languageVersion.set(JavaLanguageVersion.of(11))
+  }
 }
 
 task execute(type:JavaExec) {

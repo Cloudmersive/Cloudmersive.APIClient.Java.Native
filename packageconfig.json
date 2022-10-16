@@ -1,9 +1,9 @@
 {
-    "apiPackage": "com.cloudmersive.client.native",
-    "modelPackage": "com.cloudmersive.client.native.model",
-    "invokerPackage": "com.cloudmersive.client.native.invoker",
-    "groupId": "com.cloudmersive.native",
-    "artifactId": "cloudmersive-java-api-client-native",
+    "apiPackage": "com.cloudmersive.client.ntv",
+    "modelPackage": "com.cloudmersive.client.ntv.model",
+    "invokerPackage": "com.cloudmersive.client.ntv.invoker",
+    "groupId": "com.cloudmersive.ntv",
+    "artifactId": "cloudmersive-java-api-client-ntv",
     "library": "native",
     "artifactVersion": "4.1.1",
     "useAbstractionForFiles": "true"
