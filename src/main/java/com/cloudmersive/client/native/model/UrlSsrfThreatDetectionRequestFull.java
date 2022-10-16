@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   UrlSsrfThreatDetectionRequestFull.JSON_PROPERTY_U_R_L,
   UrlSsrfThreatDetectionRequestFull.JSON_PROPERTY_BLOCKED_DOMAINS
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:42.827276700-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:34:21.930465900-07:00[America/Los_Angeles]")
 public class UrlSsrfThreatDetectionRequestFull {
   public static final String JSON_PROPERTY_U_R_L = "URL";
   private String URL;

@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 @JsonPropertyOrder({
   GetTimezonesRequest.JSON_PROPERTY_COUNTRY_CODE_OR_NAME
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:27:50.092931600-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:33:32.375774100-07:00[America/Los_Angeles]")
 public class GetTimezonesRequest {
   public static final String JSON_PROPERTY_COUNTRY_CODE_OR_NAME = "CountryCodeOrName";
   private String countryCodeOrName;

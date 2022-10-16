@@ -4,7 +4,7 @@ securityapi
 
 - API version: v1
 
-- Build date: 2022-10-15T17:28:42.827276700-07:00[America/Los_Angeles]
+- Build date: 2022-10-15T17:34:21.930465900-07:00[America/Los_Angeles]
 
 The security APIs help you detect and block security threats.
 

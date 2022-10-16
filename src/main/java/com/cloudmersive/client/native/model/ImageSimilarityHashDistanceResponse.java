@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   ImageSimilarityHashDistanceResponse.JSON_PROPERTY_SUCCESSFUL,
   ImageSimilarityHashDistanceResponse.JSON_PROPERTY_IMAGE_SIMILARITY_SCORE
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:04.530778700-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:33:46.869976900-07:00[America/Los_Angeles]")
 public class ImageSimilarityHashDistanceResponse {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

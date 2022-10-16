@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   VideoFile.JSON_PROPERTY_VIDEO_NUMBER,
   VideoFile.JSON_PROPERTY_CONTENT
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:24.597412300-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:34:05.331264-07:00[America/Los_Angeles]")
 public class VideoFile {
   public static final String JSON_PROPERTY_VIDEO_NUMBER = "VideoNumber";
   private Integer videoNumber;

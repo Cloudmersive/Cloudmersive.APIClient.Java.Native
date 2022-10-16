@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   HttpOrchestrationResponse.JSON_PROPERTY_OUTPUT_STRING_TYPE,
   HttpOrchestrationResponse.JSON_PROPERTY_OUTPUT_BINARY_TYPE
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:20.612268700-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:34:02.473390900-07:00[America/Los_Angeles]")
 public class HttpOrchestrationResponse {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

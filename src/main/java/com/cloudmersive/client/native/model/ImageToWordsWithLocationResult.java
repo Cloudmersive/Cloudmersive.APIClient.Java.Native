@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   ImageToWordsWithLocationResult.JSON_PROPERTY_SUCCESSFUL,
   ImageToWordsWithLocationResult.JSON_PROPERTY_WORDS
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:27:58.200774700-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:33:40.650093200-07:00[America/Los_Angeles]")
 public class ImageToWordsWithLocationResult {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

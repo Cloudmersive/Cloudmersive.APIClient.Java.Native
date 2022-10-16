@@ -42,7 +42,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   FullEmailValidationResponse.JSON_PROPERTY_IS_FREE_EMAIL_PROVIDER,
   FullEmailValidationResponse.JSON_PROPERTY_IS_DISPOSABLE
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:27:50.092931600-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:33:32.375774100-07:00[America/Los_Angeles]")
 public class FullEmailValidationResponse {
   public static final String JSON_PROPERTY_VALID_ADDRESS = "ValidAddress";
   private Boolean validAddress;

@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   NsfwScannedFrame.JSON_PROPERTY_CLASSIFICATION_RESULT,
   NsfwScannedFrame.JSON_PROPERTY_SCORE
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:24.597412300-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:34:05.331264-07:00[America/Los_Angeles]")
 public class NsfwScannedFrame {
   public static final String JSON_PROPERTY_FRAME_NUMBER = "FrameNumber";
   private Integer frameNumber;

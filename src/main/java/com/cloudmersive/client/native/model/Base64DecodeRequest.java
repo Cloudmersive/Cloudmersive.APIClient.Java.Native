@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 @JsonPropertyOrder({
   Base64DecodeRequest.JSON_PROPERTY_BASE64_CONTENT_TO_DECODE
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:09.672516700-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:33:52.110310500-07:00[America/Los_Angeles]")
 public class Base64DecodeRequest {
   public static final String JSON_PROPERTY_BASE64_CONTENT_TO_DECODE = "Base64ContentToDecode";
   private String base64ContentToDecode;

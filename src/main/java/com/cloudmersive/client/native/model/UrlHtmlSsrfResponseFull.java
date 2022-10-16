@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   UrlHtmlSsrfResponseFull.JSON_PROPERTY_CLEAN_U_R_L,
   UrlHtmlSsrfResponseFull.JSON_PROPERTY_HTTP_RESPONSE_CODE
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:27:50.092931600-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:33:32.375774100-07:00[America/Los_Angeles]")
 public class UrlHtmlSsrfResponseFull {
   public static final String JSON_PROPERTY_CLEAN_U_R_L = "CleanURL";
   private Boolean cleanURL;

@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   PresentationResult.JSON_PROPERTY_U_R_L,
   PresentationResult.JSON_PROPERTY_PRESENTATION_CONTENTS
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:09.672516700-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:33:52.110310500-07:00[America/Los_Angeles]")
 public class PresentationResult {
   public static final String JSON_PROPERTY_SLIDE_NUMBER = "SlideNumber";
   private Integer slideNumber;

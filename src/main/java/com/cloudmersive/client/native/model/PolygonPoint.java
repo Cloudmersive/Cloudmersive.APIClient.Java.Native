@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   PolygonPoint.JSON_PROPERTY_X,
   PolygonPoint.JSON_PROPERTY_Y
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:04.530778700-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:33:46.869976900-07:00[America/Los_Angeles]")
 public class PolygonPoint {
   public static final String JSON_PROPERTY_X = "X";
   private Double X;

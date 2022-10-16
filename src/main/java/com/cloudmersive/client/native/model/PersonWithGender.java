@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   PersonWithGender.JSON_PROPERTY_GENDER_CLASSIFICATION_CONFIDENCE,
   PersonWithGender.JSON_PROPERTY_GENDER_CLASS
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:04.530778700-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:33:46.869976900-07:00[America/Los_Angeles]")
 public class PersonWithGender {
   public static final String JSON_PROPERTY_FACE_LOCATION = "FaceLocation";
   private Face faceLocation;

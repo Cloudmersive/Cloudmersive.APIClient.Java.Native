@@ -40,7 +40,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   DocxFooter.JSON_PROPERTY_PARAGRAPHS,
   DocxFooter.JSON_PROPERTY_SECTIONS_WITH_FOOTER
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:09.672516700-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:33:52.110310500-07:00[America/Los_Angeles]")
 public class DocxFooter {
   public static final String JSON_PROPERTY_PATH = "Path";
   private String path;

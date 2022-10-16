@@ -34,7 +34,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   Entity.JSON_PROPERTY_ENTITY_TYPE,
   Entity.JSON_PROPERTY_ENTITY_TEXT
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:27:54.155120600-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:33:37.055407600-07:00[America/Los_Angeles]")
 public class Entity {
   public static final String JSON_PROPERTY_ENTITY_TYPE = "EntityType";
   private String entityType;

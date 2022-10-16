@@ -39,7 +39,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   HtmlSsrfThreatCheckResult.JSON_PROPERTY_IS_THREAT,
   HtmlSsrfThreatCheckResult.JSON_PROPERTY_THREAT_LINKS
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:09.672516700-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:33:52.110310500-07:00[America/Los_Angeles]")
 public class HtmlSsrfThreatCheckResult {
   public static final String JSON_PROPERTY_IS_VALID = "IsValid";
   private Boolean isValid;

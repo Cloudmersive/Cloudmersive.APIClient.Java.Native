@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   HttpRawBinaryParameter.JSON_PROPERTY_PARAMETER_VALUE,
   HttpRawBinaryParameter.JSON_PROPERTY_USE_OUTPUT_FROM_PREVIOUS_TASK
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:20.612268700-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:34:02.473390900-07:00[America/Los_Angeles]")
 public class HttpRawBinaryParameter {
   public static final String JSON_PROPERTY_PARAMETER_VALUE = "ParameterValue";
   private byte[] parameterValue;
