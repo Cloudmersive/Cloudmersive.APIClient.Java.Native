@@ -39,7 +39,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   CreateZipArchiveRequest.JSON_PROPERTY_FILES_IN_ZIP,
   CreateZipArchiveRequest.JSON_PROPERTY_DIRECTORIES_IN_ZIP
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:26:27.275021200-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:09.672516700-07:00[America/Los_Angeles]")
 public class CreateZipArchiveRequest {
   public static final String JSON_PROPERTY_FILES_IN_ZIP = "FilesInZip";
   private List<ZipFile> filesInZip = null;

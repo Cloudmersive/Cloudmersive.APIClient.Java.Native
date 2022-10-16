@@ -39,7 +39,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   TableResult.JSON_PROPERTY_TABLE_DEFINITION,
   TableResult.JSON_PROPERTY_TABLE_ROWS_RESULT
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:26:01.223881200-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:27:58.200774700-07:00[America/Los_Angeles]")
 public class TableResult {
   public static final String JSON_PROPERTY_TABLE_DEFINITION = "TableDefinition";
   private FormTableDefinition tableDefinition;

@@ -39,7 +39,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   FormDefinitionTemplate.JSON_PROPERTY_FIELD_DEFINITIONS,
   FormDefinitionTemplate.JSON_PROPERTY_TABLE_DEFINITIONS
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:26:01.223881200-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:27:58.200774700-07:00[America/Los_Angeles]")
 public class FormDefinitionTemplate {
   public static final String JSON_PROPERTY_FIELD_DEFINITIONS = "FieldDefinitions";
   private List<FormFieldDefinition> fieldDefinitions = null;

@@ -35,7 +35,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   CloudStorageVirusFound.JSON_PROPERTY_FILE_NAME,
   CloudStorageVirusFound.JSON_PROPERTY_VIRUS_NAME
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:26:33.579104100-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:17.021356600-07:00[America/Los_Angeles]")
 public class CloudStorageVirusFound {
   public static final String JSON_PROPERTY_FILE_NAME = "FileName";
   private String fileName;

@@ -39,7 +39,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   DrawRectangleRequest.JSON_PROPERTY_BASE_IMAGE_URL,
   DrawRectangleRequest.JSON_PROPERTY_RECTANGLES_TO_DRAW
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:26:07.726634200-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:04.530778700-07:00[America/Los_Angeles]")
 public class DrawRectangleRequest {
   public static final String JSON_PROPERTY_BASE_IMAGE_BYTES = "BaseImageBytes";
   private byte[] baseImageBytes;

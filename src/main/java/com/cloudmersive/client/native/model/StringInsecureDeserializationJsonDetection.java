@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   StringInsecureDeserializationJsonDetection.JSON_PROPERTY_CONTAINED_JSON_INSECURE_DESERIALIZATION_ATTACK,
   StringInsecureDeserializationJsonDetection.JSON_PROPERTY_ORIGINAL_INPUT
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:26:58.366196500-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:42.827276700-07:00[America/Los_Angeles]")
 public class StringInsecureDeserializationJsonDetection {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

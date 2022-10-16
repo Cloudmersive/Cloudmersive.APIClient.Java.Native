@@ -44,7 +44,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   StringAutomaticThreatDetection.JSON_PROPERTY_IS_U_R_L,
   StringAutomaticThreatDetection.JSON_PROPERTY_ORIGINAL_INPUT
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:26:58.366196500-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:42.827276700-07:00[America/Los_Angeles]")
 public class StringAutomaticThreatDetection {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;

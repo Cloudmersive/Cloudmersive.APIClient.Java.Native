@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   DocxSetHeaderRequest.JSON_PROPERTY_INPUT_FILE_URL,
   DocxSetHeaderRequest.JSON_PROPERTY_HEADER_TO_APPLY
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:26:27.275021200-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:09.672516700-07:00[America/Los_Angeles]")
 public class DocxSetHeaderRequest {
   public static final String JSON_PROPERTY_INPUT_FILE_BYTES = "InputFileBytes";
   private byte[] inputFileBytes;

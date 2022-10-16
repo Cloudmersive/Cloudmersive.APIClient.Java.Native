@@ -37,7 +37,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   WorksheetResult.JSON_PROPERTY_U_R_L,
   WorksheetResult.JSON_PROPERTY_WORKSHEET_CONTENTS
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:26:27.275021200-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:09.672516700-07:00[America/Los_Angeles]")
 public class WorksheetResult {
   public static final String JSON_PROPERTY_WORKSHEET_NUMBER = "WorksheetNumber";
   private Integer worksheetNumber;

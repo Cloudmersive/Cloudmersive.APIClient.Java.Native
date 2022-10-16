@@ -43,7 +43,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   DocxComment.JSON_PROPERTY_PARENT_COMMENT_PATH,
   DocxComment.JSON_PROPERTY_DONE
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:26:27.275021200-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:09.672516700-07:00[America/Los_Angeles]")
 public class DocxComment {
   public static final String JSON_PROPERTY_PATH = "Path";
   private String path;

@@ -38,7 +38,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   PersonWithAge.JSON_PROPERTY_AGE_CLASS,
   PersonWithAge.JSON_PROPERTY_AGE
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:26:07.726634200-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:04.530778700-07:00[America/Los_Angeles]")
 public class PersonWithAge {
   public static final String JSON_PROPERTY_FACE_LOCATION = "FaceLocation";
   private Face faceLocation;

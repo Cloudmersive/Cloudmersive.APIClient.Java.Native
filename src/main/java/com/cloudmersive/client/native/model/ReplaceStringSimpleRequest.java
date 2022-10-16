@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   ReplaceStringSimpleRequest.JSON_PROPERTY_TARGET_STRING,
   ReplaceStringSimpleRequest.JSON_PROPERTY_REPLACE_WITH_STRING
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:26:27.275021200-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:09.672516700-07:00[America/Los_Angeles]")
 public class ReplaceStringSimpleRequest {
   public static final String JSON_PROPERTY_TEXT_CONTENT = "TextContent";
   private String textContent;

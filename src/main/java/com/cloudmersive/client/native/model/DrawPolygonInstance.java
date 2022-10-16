@@ -40,7 +40,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   DrawPolygonInstance.JSON_PROPERTY_FILL_COLOR,
   DrawPolygonInstance.JSON_PROPERTY_POINTS
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:26:07.726634200-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:28:04.530778700-07:00[America/Los_Angeles]")
 public class DrawPolygonInstance {
   public static final String JSON_PROPERTY_BORDER_COLOR = "BorderColor";
   private String borderColor;

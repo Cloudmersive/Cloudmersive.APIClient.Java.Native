@@ -39,7 +39,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   XxeDetectionRequestItem.JSON_PROPERTY_KNOWN_SAFE_URLS,
   XxeDetectionRequestItem.JSON_PROPERTY_KNOWN_UNSAFE_URLS
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:25:52.145220700-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:27:50.092931600-07:00[America/Los_Angeles]")
 public class XxeDetectionRequestItem {
   public static final String JSON_PROPERTY_INPUT_TEXT = "InputText";
   private String inputText;

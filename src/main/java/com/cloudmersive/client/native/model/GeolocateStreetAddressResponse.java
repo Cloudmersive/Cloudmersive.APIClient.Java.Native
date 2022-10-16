@@ -39,7 +39,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   GeolocateStreetAddressResponse.JSON_PROPERTY_REGION_NAME,
   GeolocateStreetAddressResponse.JSON_PROPERTY_ZIP_CODE
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:25:52.145220700-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:27:50.092931600-07:00[America/Los_Angeles]")
 public class GeolocateStreetAddressResponse {
   public static final String JSON_PROPERTY_COUNTRY_CODE = "CountryCode";
   private String countryCode;

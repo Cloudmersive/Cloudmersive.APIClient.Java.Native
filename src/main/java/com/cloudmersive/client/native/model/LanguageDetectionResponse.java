@@ -36,7 +36,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder;
   LanguageDetectionResponse.JSON_PROPERTY_DETECTED_LANGUAGE_THREE_LETTER_CODE,
   LanguageDetectionResponse.JSON_PROPERTY_DETECTED_LANGUAGE_FULL_NAME
 })
-@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:25:56.674263100-07:00[America/Los_Angeles]")
+@javax.annotation.processing.Generated(value = "org.openapitools.codegen.languages.JavaClientCodegen", date = "2022-10-15T17:27:54.155120600-07:00[America/Los_Angeles]")
 public class LanguageDetectionResponse {
   public static final String JSON_PROPERTY_SUCCESSFUL = "Successful";
   private Boolean successful;
